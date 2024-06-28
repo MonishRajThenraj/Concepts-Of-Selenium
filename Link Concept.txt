@@ -60,6 +60,10 @@ Link is used to navigate to the destined webPage
 		4) Collect all the links in a list
 		5) calculate the size of the list
 
+7) The Main things used to find the links using 2 options majorly
+	1) driver.findElement(By.linkText("The link text");
+	2) driver.findElement(By.partialLinkText("The Partial Link Text");
+
 
 
 	
