@@ -1,0 +1,65 @@
+Link Concept:-
+
+Click on the link and it should take you to the next page:-
+
+Link is different from Button
+
+Link is used to navigate to the destined webPage
+
+1) Take me to the Destination
+	Wat we need to achive here?
+		1) open the browser
+		2) load the webPage
+		3) Click on the "Go To Dashboard" link
+		4) Dashboard window will load
+		5) Verify wethere the Dashboard window is loaded
+		
+
+2) Find my destination 
+	How to Achive this?
+		1) open the browser
+		2) load the webPage
+		3) analyze the hyperText and get the link
+		4) Print the link
+	
+
+3) Am i a broken Link
+	How to Achive this?
+		1) Open the browser
+		2) Load the WebPage
+		3) Create a url object for the current webPage
+		4) Create a HttpRequest object and open the url
+		5) send the httpRequest using the head
+		6) Recive the response using the integer
+		7) check if it is over 400 and then confirm it is a broken link or not
+
+4) Duplicate Link
+	How to Achive this?
+		1) Open the browser
+		2) Load the WebPage
+		3) Take the list of links in the webpage in a list
+		4) Create 2 sets one is for Orginal set and Duplicate sets
+		5) iterate the list
+		6) if the link is available in orginal set then add it to duplicate set
+		7) Print the duplicate set
+
+5) Count the links
+	How to Achive this?
+		1) Open the browser
+		2) Load the WebPage
+		3) Collect all the links in a list
+		4) calculate the size of the list
+		
+	
+
+6) Count the Layout Link
+	How to Achive this?
+		1) Open the browser
+		2) Load the WebPage
+		3) Find the layout first
+		4) Collect all the links in a list
+		5) calculate the size of the list
+
+
+
+	
